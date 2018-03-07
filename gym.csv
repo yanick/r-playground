@@ -1,0 +1,112 @@
+iteration | exercise       | weight | rep
+2018-03-05           | leg press      | 80     | 20
+2018-03-05           | leg curl       | 70     | 17
+2018-03-05           | leg extension  | 40     | 18
+2018-03-05           | calf extension | 105     | 20
+2018-03-05           | seated row     | 45     | 15
+2018-03-05           | chest press    | 30     | 15
+2018-03-05           | pulldown       | 45     | 20
+2018-03-05           | shoulder press | 10     | 15
+2018-03-05           | torso rotation | 75     | 18
+
+2018-02-26         | leg press      | 80     | 18
+2018-02-26         | leg curl       | 70     | 17
+2018-02-26         | leg extension  | 40     | 18
+2018-02-26         | calf extension | 100     | 20
+2018-02-26         | seated row     | 45     | 16
+2018-02-26         | chest press    | 30     | 15
+2018-02-26         | pulldown       | 45     | 17
+2018-02-26         | shoulder press | 10     | 15
+2018-02-26         | ab machine     | 55     | 16
+2018-02-26         | torso rotation | 75     | 17
+
+09         | leg press      | 75     | 20
+09         | leg curl       | 65     | 20
+09         | leg extension  | 35     | 20
+09         | calf extension | 95     | 20
+09         | seated row     | 45     | 15
+09         | pulldown       | 45     | 16
+09         | chest press    | 30     | 15
+09         | shoulder press | 10     | 17
+09         | ab machine     | 55     | 17
+09         | torso rotation | 75     | 16
+08         | leg press      | 70     | 20
+08         | leg curl       | 65     | 18
+08         | leg extension  | 35     | 16
+08         | calf extension | 80     | 20
+08         | seated row     | 45     | 15
+08         | pulldown       | 45     | 16
+08         | chest press    | 30     | 15
+08         | shoulder press | 10     | 16
+08         | ab machine     | 55     | 16
+08         | torso rotation | 55     | 20
+08         | leg press      | 70     | 19
+07         | leg press      | 70     | 19
+07         | leg curl       | 60     | 20
+07         | leg extension  | 30     | 20
+07         | calf extension | 75     | 20
+07         | seated row     | 45     | 19
+07         | pulldown       | 40     | 20
+07         | chest press    | 25     | 20
+07         | shoulder press | 10     | 11
+07         | ab machine     | 50     | 20
+07         | torso rotation | 50     | 20
+06         | leg press      | 70     | 18
+06         | leg curl       | 55     | 20
+06         | leg extension  | 30     | 18
+06         | calf extension | 70     | 20
+06         | seated row     | 45     | 16
+06         | pulldown       | 40     | 18
+06         | chest press    | 25     | 16
+06         | shoulder press | 10     | 15
+06         | ab machine     | 45     | 20
+06         | torso rotation | 50     | 18
+01         | leg press      | 50     | 20
+02         | leg press      | 55     | 20
+03         | leg press      | 65     | 20
+04         | leg press      | 70     | 15
+05         | leg press      | 70     | 17
+01         | leg curl       | 40     | 20
+02         | leg curl       | 40     | 20
+03         | leg curl       | 45     | 20
+04         | leg curl       | 50     | 15
+05         | leg curl       | 50     | 20
+01         | leg extension  | 20     | 17
+02         | leg extension  | 20     | 17
+03         | leg extension  | 20     | 20
+04         | leg extension  | 25     | 20
+05         | leg extension  | 30     | 17
+01         | calf extension | 30     | 20
+02         | calf extension | 40     | 20
+03         | calf extension | 50     | 20
+04         | calf extension | 60     | 20
+05         | calf extension | 65     | 20
+01         | seated row     | 40     | 20
+02         | seated row     | 40     | 16
+03         | seated row     | 40     | 20
+04         | seated row     | 45     | 15
+05         | seated row     | 45     | 17
+01         | pulldown       | 40     | 16
+02         | pulldown       | 40     | 16
+03         | pulldown       | 40     | 17
+04         | pulldown       | 40     | 18
+05         | pulldown       | 40     | 18
+01         | chest press    | 25     | 15
+02         | chest press    | 25     | 10
+03         | chest press    | 20     | 15
+04         | chest press    | 20     | 16
+05         | chest press    | 20     | 20
+01         | shoulder press | 15     | 10
+02         | shoulder press | 15     | 11
+03         | shoulder press | 15     | 13
+04         | shoulder press | 15     | 11
+05         | shoulder press | 10     | 15
+01         | ab machine     | 35     | 15
+02         | ab machine     | 35     | 15
+03         | ab machine     | 40     | 20
+04         | ab machine     | 45     | 16
+05         | ab machine     | 45     | 19
+01         | torso rotation | 35     | 16
+03         | torso rotation | 40     | 20
+04         | torso rotation | 50     | 15
+05         | torso rotation | 50     | 16

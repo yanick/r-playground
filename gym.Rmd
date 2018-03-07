@@ -1,0 +1,63 @@
+---
+title: Gym Stats
+output: pdf_document
+---
+
+To produce a snazzy html version of this document: `R -e "rmarkdown::render('gym.Rmd')"`
+
+```{r, include=FALSE}
+library('ggplot2')
+library('dplyr')
+library('knitr')
+
+gym  <- read.csv( "./gym.csv", header=TRUE, sep="|", strip.white=TRUE )
+exercises  <-  read.table( 'exercises.table', header=TRUE, sep='|', strip.white=TRUE )
+
+gym  <- gym %>% mutate(level = weight/5 + ( rep - 16 ) / 6, total_weight = weight * rep ) %>% merge(exercises) %>%  arrange(iteration) %>% mutate( change_weight = weight != last(weight) )
+
+
+```
+
+## Last session
+
+
+```{r, echo = FALSE}
+session  <-  gym %>% filter( iteration == last(iteration) ) %>% arrange( body_group, exercise )
+knitr::kable( session, caption = "gym stats, raw"  )
+```
+
+My different exercises are
+
+```{r, echo = FALSE}
+exercise_type  <-  gym %>% select( exercise, body_group ) %>% unique() %>%
+    arrange( body_group, exercise )
+
+knitr::kable( exercise_type, caption = "exercise types"  )
+```
+
+## Graphs!
+
+###  arms
+
+```{r, echo = FALSE}
+bg  <- 'arm'
+gymgroup  <- gym %>% filter( body_group == bg ) %>% select( iteration, exercise, weight )
+ggplot( gymgroup, aes(iteration, weight) ) + geom_point() + facet_grid(~ exercise)
+```
+
+###  torso
+
+```{r, echo = FALSE}
+bg  <- 'core'
+gymgroup  <- gym %>% filter( body_group == bg ) %>% select( iteration, exercise, weight )
+ggplot( gymgroup, aes(iteration, weight) ) + geom_point() + facet_grid(~ exercise)
+```
+
+###  legs
+
+```{r, echo = FALSE}
+bg  <- 'leg'
+gymgroup  <- gym %>% filter( body_group == bg ) %>% select( iteration, exercise, weight )
+ggplot( data=gymgroup ) + geom_line(aes(x=iteration,y=weight,group=exercise, color=exercise))
+```
+
